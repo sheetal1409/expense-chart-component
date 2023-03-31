@@ -23,8 +23,19 @@ function App() {
           <div className='graph'>
             <Graph data={data} />
           </div>
-          <div className='borderdiv'></div>
+          <div className='borderdiv'>
+
+          </div>
+          <div className='bottom-layer'>
+            <div className='subdiv'><p className='bottom-p'>Total this month</p>
+              <h2 className='bottom-number big-font'>$442.89</h2></div>
+
+            <div className='subdiv'><h6 className='bottom-number'>+2.4%</h6>
+              <p className='bottom-p'>from last month</p>
+            </div>
+          </div>
         </section>
+
       </main>
     </div >
   );
