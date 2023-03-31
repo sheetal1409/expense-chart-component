@@ -5,7 +5,7 @@ import { data } from "./data"
 
 function App() {
 
-  const [mybalance, setMyBalance] = React.useState("972.12")
+  const mybalance = "972.12"
 
   return (
     <div className="App">
